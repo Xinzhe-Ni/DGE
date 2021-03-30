@@ -19,7 +19,7 @@ row.names(wt_raw_count) <- wt_raw_count[, 1]
 wt_raw_count <- wt_raw_count[, -1]
 
 #过滤
-countData_wt <- wt_raw_count[rowSums(col0_raw_count) > 100, ]
+countData_wt <- wt_raw_count[rowSums(wt_raw_count) > 100, ]
 ```
 
 第一步：读取数据，得到野生型的基因表达矩阵。
