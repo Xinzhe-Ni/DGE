@@ -24,7 +24,7 @@ countData_wt <- wt_raw_count[rowSums(wt_raw_count) > 100, ]
 
 第一步：读取数据，得到野生型的基因表达矩阵。
 
->  Tips: 输入矩阵需为原始矩阵，不能经过标准化之等处理
+>  Tips: 输入矩阵需为原始矩阵，不能经过标准化等处理
 
 ## 2\) Provide sample information
 
